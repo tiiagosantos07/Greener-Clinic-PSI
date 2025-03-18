@@ -1,0 +1,155 @@
+
+    body {
+        margin: 0;
+        font-family: Arial;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px; 
+        background-color: #4d4373;
+    }
+    .logo {
+        height: 85px;
+    }
+    .slogan {
+        font-size: 25px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+    .nav-bar {
+        background-color: #3c345a;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+    }
+    .nav-bar a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 20px;
+        transition: 0.3s;
+    }
+    .nav-bar a:hover {
+        background-color: #5a4e88;
+        border-radius: 5px;
+    }
+    .nav-bar a.active {
+        background-color: #72d681;
+        color: white;
+        border-radius: 5px;
+    }
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+        text-align: center;
+        flex-grow: 1;
+    }
+    .specialty {
+        flex: 1;
+        max-width: 300px;
+        min-width: 250px;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+        text-align: center;
+        color: black;
+    }
+    .specialty h2 {
+        color: #4d4373;
+    }
+    .about {
+        max-width: 800px;
+        font-size: 18px;
+        color: #333;
+    }
+    .clinic-image {
+        width: 100%;
+        max-width: 600px;
+        margin-top: 20px;
+    }
+    .footer {
+        background-color: #4d4373;
+        padding: 10px;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        width: 100%;
+        margin-top: auto;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+    .login-button {
+        background-color: #72d681;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+        text-decoration: none;
+    }
+    .login-button:hover {
+        background-color: #5bbd69;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #72d681;
+        min-width: 160px;
+        z-index: 1;
+        border-radius: 5px;
+    }
+    .dropdown-content a {
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-weight: bold;
+    }
+    .dropdown-content a:hover {
+        background-color: #5bbd69;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .logout-button {
+        background-color: #72d681;
+        color: white;
+        border: none;
+        padding: 8px 12px;
+        font-size: 14px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: 0.3s;
+    }
+    .logout-button:hover {
+        background-color: #cc0000;
+    }
+    .user-info{
+        margin: 0;
+        font-family: Arial;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
